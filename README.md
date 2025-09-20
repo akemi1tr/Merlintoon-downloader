@@ -46,8 +46,8 @@
 
 ### **1. Depoyu Klonlayın**
 ```bash
-git clone https://github.com/kullanici/merlintoon-manga-indirici.git
-cd merlintoon-manga-indirici
+git clone https://github.com/akemi1tr/Merlintoon-downloader.git
+cd Merlintoon-downloader
 ```
 
 ### **2. Gerekli Paketleri Yükleyin**
@@ -57,6 +57,36 @@ pip install -r requirements.txt
 
 ### **3. Chrome WebDriver Kurulumu**
 Uygulama otomatik olarak Chrome WebDriver'ı indirecektir. Chrome tarayıcısının sisteminizde yüklü olduğundan emin olun.
+
+---
+
+## 📥 Hızlı İndirme (Executable)
+
+### **🚀 Hazır Executable Dosyası**
+Eğer Python kurulumu yapmak istemiyorsanız, hazır .exe dosyasını indirebilirsiniz:
+
+1. **[Releases](https://github.com/akemi1tr/Merlintoon-downloader/tree/main/dist)** sayfasından `MerlintoonMangaIndirici.exe` dosyasını indirin
+2. Dosyayı çift tıklayarak çalıştırın
+3. Chrome tarayıcısının yüklü olduğundan emin olun
+
+### **🛡️ Antivirüs Uyarısı Hakkında**
+
+**⚠️ ÖNEMLI:** Executable dosyası antivirüs yazılımları tarafından **yanlış alarm** verebilir. Bu tamamen normal bir durumdur.
+
+#### **Neden Bu Uyarı Çıkıyor?**
+- PyInstaller ile oluşturulan .exe dosyaları şüpheli görünebilir
+- İmzasız executable olduğu için Windows Defender uyarı verir
+- Web scraping kütüphaneleri (Selenium, requests) ağ trafiği oluşturur
+
+#### **Güvenlik Doğrulaması**
+- ✅ **Kaynak kod açık** - tüm kodları inceleyebilirsiniz
+- ✅ **VirusTotal.com'da tarayın** - temiz çıkacaktır
+- ✅ **GitHub'dan indirin** - güvenilir kaynak
+
+#### **Çözüm Yöntemleri**
+1. **Windows Defender:** "Yine de çalıştır" seçeneğini kullanın
+2. **Antivirüs İstisnası:** Dosyayı istisna listesine ekleyin
+3. **Alternatif:** Python kurulumu yapıp kaynak koddan çalıştırın
 
 ---
 
