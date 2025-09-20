@@ -160,3 +160,8 @@ chromedriver
 Manga_Downloads/
 manga_downloads/
 downloads/
+
+# Build files (but keep the final exe)
+build/
+!dist/
+!dist/*.exe
